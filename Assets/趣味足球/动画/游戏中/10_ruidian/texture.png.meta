@@ -1,0 +1,361 @@
+fileFormatVersion: 2
+guid: 2ee5a461b0c2c4d4faed4774090350f0
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 10_ruidian9
+    21300002: 10_ruidian5
+    21300004: 10_ruidian3
+    21300006: 10_ruidian8
+    21300008: 10_ruidian4
+    21300010: 10_ruidian6
+    21300012: 10_ruidian2
+    21300014: 10_ruidian7
+    21300016: 10_ruidian1
+    21300018: 10_ruidian11
+    21300020: 10_ruidian12
+    21300022: 10_ruidian10
+    21300024: 10_ruidian13
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 10_ruidian9
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 29
+        width: 29
+        height: 13
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.53846157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7bdd8d8ee67ee14d91ad5badb202f1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_ruidian5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 42
+        width: 13
+        height: 16
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0.53125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee71794a4253a54a833d6d3a21a7d6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_ruidian3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 3
+        width: 21
+        height: 23
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06b61f8e3f0e5f4d8abc7bb165398a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_ruidian8
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 35
+        width: 9
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7e9798005b77746a6bccb0d68c0417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_ruidian4
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 28
+        width: 26
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5192308, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795ed7a580a4b3149aee22ae1ad28a3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_ruidian6
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 33
+        width: 16
+        height: 25
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5bb3698451bb949be2ca17617c8b79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_ruidian2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 89
+        width: 43
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.5131579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98f12eba8113874385d4c432ce0c89e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_ruidian7
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 60
+        width: 30
+        height: 27
+      alignment: 9
+      pivot: {x: 0.51666665, y: 0.5185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729291213b1b3d24fa49aca219ab2c45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_ruidian1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 12
+        width: 85
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5058824, y: 0.5043478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b151ce5327064ee4b84adf2c50811816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_ruidian11
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 35
+        width: 8
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7761c7039dafd042bb380d4fe3c7a48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_ruidian12
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 44
+        width: 29
+        height: 14
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.53571427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1faa092f30e4ff242b36d3b8d79f41fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_ruidian10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3
+        width: 25
+        height: 23
+      alignment: 9
+      pivot: {x: 0.52, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d2d2fe9872dbf47851b1fbcbc30638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_ruidian13
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 12
+        width: 54
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5092593, y: 0.53571427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865302c7a5848df4ba9a71e4bf7a9fd7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f613edd86c0575942956972b106c2eeb
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: 8420d5f28d0937f4e9de0cfdebaaab10
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fengmian2_4
+    21300002: fengmian2_1
+    21300004: fengmian2_2
+    21300006: fengmian2_7
+    21300008: fengmian2_5
+    21300010: fengmian2_6
+    21300012: fengmian2_3
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fengmian2_4
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 132
+        width: 178
+        height: 123
+      alignment: 9
+      pivot: {x: 0.502809, y: 0.50406504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e5b86183901964694c4defd6cb364e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fengmian2_1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 257
+        width: 231
+        height: 254
+      alignment: 9
+      pivot: {x: 0.5021645, y: 0.5019685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0419715a02521048aff2ac31a62af56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fengmian2_2
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 376
+        width: 138
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5036232, y: 0.5037037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92ca83d48107f345b94c32556e78261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fengmian2_7
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 72
+        width: 263
+        height: 183
+      alignment: 9
+      pivot: {x: 0.50190115, y: 0.5027322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d32b0ece8cf80b4491fdb005fda4237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fengmian2_5
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 117
+        width: 143
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5034965, y: 0.5036232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6aff4ccc5907d547a12cd1f8d785f6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fengmian2_6
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 92
+        width: 156
+        height: 163
+      alignment: 9
+      pivot: {x: 0.5032051, y: 0.5030675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1517d816b50a14497787590f0624c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fengmian2_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 82
+        width: 185
+        height: 429
+      alignment: 9
+      pivot: {x: 0.5027027, y: 0.5011655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab3e67b97ef93c4786ebb05b008be8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b4a3423e48fbc7f4783547ed16d3558a
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

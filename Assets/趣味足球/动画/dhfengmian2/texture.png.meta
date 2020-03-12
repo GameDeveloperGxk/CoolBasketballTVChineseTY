@@ -1,0 +1,298 @@
+fileFormatVersion: 2
+guid: 8c5a44a7a19053b4b89b90130dd66149
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dhfengmian2_7
+    21300002: dhfengmian2_6
+    21300004: dhfengmian2_1
+    21300006: dhfengmian2_9
+    21300008: dhfengmian2_2
+    21300010: dhfengmian2_10
+    21300012: dhfengmian2_5
+    21300014: dhfengmian2_4
+    21300016: dhfengmian2_8
+    21300018: dhfengmian2_3
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dhfengmian2_7
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 275
+        width: 69
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5072464, y: 0.5050505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fba8ca942d4be04aa9ecfc4da2c35d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dhfengmian2_6
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 324
+        width: 65
+        height: 50
+      alignment: 9
+      pivot: {x: 0.50769234, y: 0.51}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1767532458c7e4bb8f7f95465937c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dhfengmian2_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 208
+        width: 223
+        height: 303
+      alignment: 9
+      pivot: {x: 0.50224215, y: 0.50165015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f868f9e811b1a74b87f9cd634af6565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dhfengmian2_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 41
+        width: 361
+        height: 165
+      alignment: 9
+      pivot: {x: 0.50138503, y: 0.5030303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa3cf39816b07f4b8c4e2164e8cd5de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dhfengmian2_2
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 261
+        width: 42
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5119048, y: 0.5081967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38ccd3002d42b04c85c06f2399628df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dhfengmian2_10
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 225
+        width: 204
+        height: 33
+      alignment: 9
+      pivot: {x: 0.502451, y: 0.5151515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d062c35897ef21a48a4e630b9018ab68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dhfengmian2_5
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 282
+        width: 59
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5084746, y: 0.5125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5669b1c7a3e9454392b3337a14ac36d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dhfengmian2_4
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 376
+        width: 152
+        height: 135
+      alignment: 9
+      pivot: {x: 0.50328946, y: 0.5037037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3474cf10814b7004183382c7e22fff23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dhfengmian2_8
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 260
+        width: 79
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5063291, y: 0.50438595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce16d92a39df11f4cb74d93115582455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dhfengmian2_3
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 457
+        width: 37
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5135135, y: 0.5092593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f72313819addc4b9e899940dc5d838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cd3cab6691c73394ca6f1ab23cb91678
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

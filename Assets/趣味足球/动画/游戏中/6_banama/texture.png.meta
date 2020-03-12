@@ -1,0 +1,361 @@
+fileFormatVersion: 2
+guid: f94979720053daa44a798bbe52a8dddf
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 6_banama1
+    21300002: 6_banama7
+    21300004: 6_banama8
+    21300006: 6_banama12
+    21300008: 6_banama6
+    21300010: 6_banama13
+    21300012: 6_banama4
+    21300014: 6_banama5
+    21300016: 6_banama3
+    21300018: 6_banama9
+    21300020: 6_banama2
+    21300022: 6_banama11
+    21300024: 6_banama10
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 6_banama1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 16
+        width: 87
+        height: 111
+      alignment: 9
+      pivot: {x: 0.50574714, y: 0.5045045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737faf34080204749918f66290b88aa5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_banama7
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 60
+        width: 30
+        height: 26
+      alignment: 9
+      pivot: {x: 0.51666665, y: 0.5192308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a431986b2b6094a8d2164f12c16a8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_banama8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 15
+        width: 9
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe2c98042257fc418ac4d3f7fb9ff79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_banama12
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 113
+        width: 29
+        height: 14
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.53571427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1eb5d8a826ea8d4e9f5c00bb40f8441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_banama6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 13
+        width: 16
+        height: 25
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63d3a67a637ba445830f7c26f0495c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_banama13
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 40
+        width: 54
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5092593, y: 0.53571427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a727d557a41dce046a15dd171a44601e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_banama4
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 56
+        width: 26
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5192308, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9035dde1f2dc93548aed0b94d6e43a70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_banama5
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 22
+        width: 13
+        height: 16
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0.53125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d6ddc70b80d324aae461ad2d13f6b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_banama3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 79
+        width: 21
+        height: 23
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076d91aaddb0fea42be74951d6d672ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_banama9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 29
+        height: 13
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.53846157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebcd1d01e99fea3478466112232f4785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_banama2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 88
+        width: 43
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.51282054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d2fe758a6db084392ff6ce7213badf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_banama11
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 15
+        width: 8
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe5c722aa2651f4ebae62a47c7c81b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_banama10
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 104
+        width: 25
+        height: 23
+      alignment: 9
+      pivot: {x: 0.52, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4dedf3dde425249bced783f656e764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4867b4af82d23d54f8f485722e1ed43f
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

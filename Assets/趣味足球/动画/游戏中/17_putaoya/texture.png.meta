@@ -1,0 +1,361 @@
+fileFormatVersion: 2
+guid: dfc020920d1b7f547b1da17a5aa9585c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 17_putaoya12
+    21300002: 17_putaoya1
+    21300004: 17_putaoya6
+    21300006: 17_putaoya10
+    21300008: 17_putaoya8
+    21300010: 17_putaoya2
+    21300012: 17_putaoya5
+    21300014: 17_putaoya11
+    21300016: 17_putaoya7
+    21300018: 17_putaoya4
+    21300020: 17_putaoya9
+    21300022: 17_putaoya13
+    21300024: 17_putaoya3
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 17_putaoya12
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 88
+        width: 29
+        height: 14
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.53571427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc8dd009ae8dcb48847c5b58afeb913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_putaoya1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 12
+        width: 84
+        height: 115
+      alignment: 9
+      pivot: {x: 0.50595236, y: 0.5043478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80a62482c42af7409397bb804e502ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_putaoya6
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 61
+        width: 16
+        height: 25
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956852a4d159218438875b4b701a01cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_putaoya10
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 64
+        width: 25
+        height: 23
+      alignment: 9
+      pivot: {x: 0.52, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5cd1760533fa149a6e74fdd86ccae9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_putaoya8
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 19
+        width: 9
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c070a52b6ffa94c9dfae2c56c3ebe5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_putaoya2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 89
+        width: 43
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.5131579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac48d0fc81277f4ea3b3c722743cffe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_putaoya5
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1
+        width: 13
+        height: 16
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0.53125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8073d002920f4d4fbbaaac00b6cdf85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_putaoya11
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 19
+        width: 8
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824a0cd9c7e4f424fac1a92ef3a2844f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_putaoya7
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 60
+        width: 30
+        height: 27
+      alignment: 9
+      pivot: {x: 0.51666665, y: 0.5185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91853aab47c043143a95b861dc9a2eef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_putaoya4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 12
+        width: 26
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5192308, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d2a21845b892a4d8f0aaa27ed7a0d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_putaoya9
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 114
+        width: 29
+        height: 13
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.53846157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196092e3ce0fc5a45a6cd779e4ab5b40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_putaoya13
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 44
+        width: 54
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5092593, y: 0.53571427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485f6778c96eba74a9d2222b37c42be6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 17_putaoya3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 104
+        width: 21
+        height: 23
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da42219f42c3ece4e99cee4691112289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 02baecbe9e8b9c5489c96707a49a7352
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

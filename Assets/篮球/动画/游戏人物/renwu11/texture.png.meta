@@ -1,0 +1,445 @@
+fileFormatVersion: 2
+guid: 4430ec5a275c67c4fafff00e51ce03cf
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: renwu11_9
+    21300002: renwu11_16
+    21300004: renwu11_11
+    21300006: renwu11_15
+    21300008: renwu11_10
+    21300010: renwu11_14
+    21300012: renwu11_12
+    21300014: renwu11_17
+    21300016: renwu11_1
+    21300018: renwu11_2
+    21300020: renwu11_5
+    21300022: renwu11_6
+    21300024: renwu11_8
+    21300026: renwu11_3
+    21300028: renwu11_4
+    21300030: renwu11_7
+    21300032: renwu11_13
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: renwu11_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 113
+        width: 28
+        height: 17
+      alignment: 9
+      pivot: {x: 0.51785713, y: 0.5294118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd2229af7b92d142989dbb9373fe260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: renwu11_16
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 191
+        width: 53
+        height: 20
+      alignment: 9
+      pivot: {x: 0.509434, y: 0.525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6716cfbd45020f4f83861812ec4bd29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: renwu11_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 172
+        width: 22
+        height: 39
+      alignment: 9
+      pivot: {x: 0.52272725, y: 0.51282054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f0264dc71e5b245bde076bc2e367a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: renwu11_15
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 163
+        width: 28
+        height: 26
+      alignment: 9
+      pivot: {x: 0.51785713, y: 0.5192308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1303074c4bd0e2b478e7c674b7067a8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: renwu11_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 159
+        width: 19
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33a376305887e843b3687face8d03e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: renwu11_14
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 132
+        width: 14
+        height: 38
+      alignment: 9
+      pivot: {x: 0.53571427, y: 0.5131579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9269d7983fa3cbc408cfbe5ebbd86527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: renwu11_12
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 163
+        width: 28
+        height: 26
+      alignment: 9
+      pivot: {x: 0.51785713, y: 0.5192308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01fc46b602381e4e987901cfaafbc3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: renwu11_17
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 217
+        width: 38
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5131579, y: 0.5131579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25ba3874d03cba47965cf19fc493018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: renwu11_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 205
+        width: 43
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.51}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d4f4caa4c4fa2419ed8960a0f3406f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: renwu11_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 124
+        width: 19
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.5151515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be85f25679d4c240b68fd187ba197e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: renwu11_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 136
+        width: 12
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5416667, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61ad27e16fa2984fb8134e9e3852598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: renwu11_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 133
+        width: 19
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.51785713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f310180fd64f2c84396d92df459d07d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: renwu11_8
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 213
+        width: 26
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5192308, y: 0.5119048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0e041ce9ef8104393087cf1e927ada
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: renwu11_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 93
+        width: 16
+        height: 29
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.51724136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a29e3d16d97bfe448991d7a8ba0f868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: renwu11_4
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 130
+        width: 21
+        height: 25
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb5248188583f14b9f513c050729882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: renwu11_7
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 108
+        width: 21
+        height: 23
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a10e0dfd1d85cd49a3153fc765ab678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: renwu11_13
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 157
+        width: 17
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.51086956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9cf07d84fea91449b7aacb91fd8be5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8dc0397411e49874b9b1538c942efb0b
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
