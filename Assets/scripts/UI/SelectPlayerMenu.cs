@@ -98,10 +98,10 @@ public class SelectPlayerMenu : MonoBehaviour {
         //liliang.fillAmount =84f / 100f;
         //liliangText.text = "84";
         erfen.text = playerValue[0, 0].ToString();
-         suduText.text = playerValue[0, 0].ToString();
-         liliangText.text = playerValue[0, 0].ToString();
-        sanfen.text = playerValue[0, 3].ToString();
-        tiaoyue.text = playerValue[0, 4].ToString();
+        sanfen.text = playerValue[0, 1].ToString();
+        suduText.text = playerValue[0, 2].ToString();
+        tiaoyue.text = playerValue[0, 3].ToString();
+        liliangText.text = playerValue[0, 4].ToString();
         fangshou.text = playerValue[0, 5].ToString();
         playBtn.sprite = play;
         jiage.SetActive(false);
@@ -192,16 +192,16 @@ public class SelectPlayerMenu : MonoBehaviour {
         guoqiImg.sprite = allGuoqi[id];
         GameController._instance.NowUsePlayerID = id;
 
-        sudu.fillAmount = playerValue[id, 0] / 100f;
-        suduText.text = playerValue[id, 0].ToString();
-        liliang.fillAmount = playerValue[id, 1] / 100f;
-        liliangText.text = playerValue[id, 1].ToString();
+        //sudu.fillAmount = playerValue[id, 0] / 100f;
+        //suduText.text = playerValue[id, 0].ToString();
+        //liliang.fillAmount = playerValue[id, 1] / 100f;
+        //liliangText.text = playerValue[id, 1].ToString();
 
         erfen.text = playerValue[id, 0].ToString();
-        //suduText.text = playerValue[id, 0].ToString();
-        //liliangText.text = playerValue[id, 0].ToString();
-        sanfen.text = playerValue[id, 3].ToString();
-        tiaoyue.text = playerValue[id, 4].ToString();
+        sanfen.text = playerValue[id, 1].ToString();
+        suduText.text = playerValue[id, 2].ToString();
+        tiaoyue.text = playerValue[id, 3].ToString();
+        liliangText.text = playerValue[id, 4].ToString();
         fangshou.text = playerValue[id, 5].ToString();
 
 
@@ -429,31 +429,58 @@ public class SelectPlayerMenu : MonoBehaviour {
     int[,] playerValue;
     void InitValue()
     {
-        playerValue = new int[20, 6] { { 84, 84 ,84 , 84 , 84 , 84 }, { 91, 94 ,91, 94 ,91, 94 }, { 63, 69 ,63, 69, 63, 69 }, { 84, 70 , 84, 70 , 84, 70 }, { 80, 90 ,80, 90 ,80, 90 },
-                                       { 70, 70 ,70 , 70 , 70 , 70 }, { 70, 73 ,70, 73 ,70, 73 }, { 84, 89 ,84, 89, 84, 89 }, { 98, 91 , 98, 91 , 98, 91 }, { 77, 77 ,77, 77 ,77, 77 },
-                                       { 90, 91 ,90 , 91 , 90 , 91 }, { 84, 91 ,84, 91 ,84, 91 }, { 77, 84 ,77, 84, 77, 84 }, { 85, 94 , 85, 94 , 85, 94 }, { 99, 99 ,99, 99 ,99, 99 },
-                                       { 77, 86 ,77 , 86 , 77 , 86 }, { 92, 87 ,92, 87 ,92, 87 }, { 84, 89 ,84, 89, 84, 89 }, { 63, 70 , 63, 70 , 63, 70 }, { 95, 95 ,95, 95 ,95, 95 }};
+        playerValue = new int[20, 6] { { 6200,  4400,   2040,   2070,   5600,   3400 }, { 5350, 4600,   1710,   1650,   4240,   2500 }, { 5400, 4800,   1590,   1530,   4400,   2800}, {6500,   5800,   1890,   1890,   4960,   3300 }, {6950,  7800,   2160,   2100,   5840,   3550},
+                                       {7300,   6600,   2160,   2190,   6000,   3600 }, {8000,  5000,   1980,   2040,   6000,   4000 }, {6800,  6400,   2100,   2100,   5600,   3500 }, { 7300, 6800,   2100,   2100,   5760,   3750 }, { 7400, 7000,   2190,   2160,   5760,   3550 },
+                                       { 7750,  7400,   2490,   2490,   6640,   4150 }, {7950,  7000,   2400,   2400,   6720,   4150 }, { 8200, 7800,   2550,   2550,   6880,   4350 }, { 8350, 7500,   2640,   2640,   7040,   4300 }, { 7950, 7200,   2670,   2670,   7120,   3900 },
+                                       { 8300,  7200,   2550,   2490,   6800,   4450 }, { 7950, 7200,   2400,   2430,   6400,   4150 }, { 7950, 7200,   2400,   2430,   6400,   4150 }, {7900,  7200,   2550,   2490,   6560,   4150}, {7900,   7200,   2550,   2490,   6560,   4150 }};
     }
 
-//    西班牙	84	84
-//法国	91	94
-//韩国	63	69
-//尼日利亚	84	70
-//摩洛哥	80	90
-//巴拿马	70	70
-//伊朗	70	73
-//乌拉圭	84	89
-//德国	98	91
-//瑞典	77	77
-//比利时	90	91
-//英格兰	84	91
-//秘鲁	77	84
-//意大利	85	94
-//阿根廷	99	99
-//瑞士	77	86
-//葡萄牙	92	87
-//荷兰	84	89
-//日本	63	70
-//巴西	95	95
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //    西班牙	84	84
+    //法国	91	94
+    //韩国	63	69
+    //尼日利亚	84	70
+    //摩洛哥	80	90
+    //巴拿马	70	70
+    //伊朗	70	73
+    //乌拉圭	84	89
+    //德国	98	91
+    //瑞典	77	77
+    //比利时	90	91
+    //英格兰	84	91
+    //秘鲁	77	84
+    //意大利	85	94
+    //阿根廷	99	99
+    //瑞士	77	86
+    //葡萄牙	92	87
+    //荷兰	84	89
+    //日本	63	70
+    //巴西	95	95
 
 }

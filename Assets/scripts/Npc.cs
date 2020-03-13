@@ -9,6 +9,8 @@ public class Npc : MonoBehaviour
     public float speed = 80f;
     private float moveX = 0;
     public Transform point_touqiu;
+    public Transform point_touqiushanglan;
+    public Transform point_touqiuguanlan;
 
     float time = 0;
     float use = 1f;//多长时间抢断一次
@@ -19,7 +21,7 @@ public class Npc : MonoBehaviour
         {
             time = 0;
             int a = Random.Range(0,100);
-            if (a < 50)
+            if (a < GameController._instance.npcAllValue[GameController._instance.NowPlayLevel, 5] / 100)
             { 
                 GameController._instance.whoHaveBall = GameController.WhoHaveBall.npc;
             }
@@ -115,11 +117,32 @@ public class Npc : MonoBehaviour
             }
 
         }
-        GetComponent<Rigidbody2D>().velocity = (Vector2.left * moveX) * (speed + GameController._instance.playerValue[GameController._instance.NowUsePlayerID, 0] * 2);
+        GetComponent<Rigidbody2D>().velocity = (Vector2.left * moveX) * (speed + GameController._instance.npcAllValue[GameController._instance.NowPlayLevel, 2]/100 *8);
 
         AnimatorStateInfo info = transform.Find("npcFather/Armature").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0);
-
-        if (info.normalizedTime > 1.0f)
+        if (info.normalizedTime > 0.5f)
+        {
+            if (info.IsName(GameController._instance.animName[9]))
+            {
+                UIManager._instance.audioManager.PlayOne(8);
+                transform.Find("npcFather/Armature").GetComponent<Animator>().Play(GameController._instance.animName[0]);
+                GameController._instance.flyBallF.SetActive(true);
+                GameController._instance.flyBall.Move(point_touqiuguanlan.gameObject, GameController._instance.leftPoint_UP.gameObject);
+                //int a = UnityEngine.Random.Range(0, 100);
+                //bool isIn = false;
+                //if (a > 65)
+                //{
+                //    isIn = false;
+                //}
+                //else
+                //{
+                //    isIn = true;
+                //}
+                //GameController._instance.isShootInPlayer = isIn;
+                //GameController._instance.rightLankuang.Play(isIn);
+            }
+        }
+            if (info.normalizedTime > 1.0f)
         {
             if (info.IsName(GameController._instance.animName[4]))
             {
@@ -154,21 +177,26 @@ public class Npc : MonoBehaviour
             else if (info.IsName(GameController._instance.animName[7]))
             {
                 transform.Find("npcFather/Armature").GetComponent<Animator>().Play(GameController._instance.animName[5]);
-                int a = UnityEngine.Random.Range(0, 100);
-                bool isIn = false;
-                if (a > 95)
-                {
-                    isIn = false;
-                }
-                else
-                {
-                    isIn = true;
-                }
-                GameController._instance.isShootInNPC = isIn;
-                GameController._instance.leftLankuang.Play(isIn);
+
+                UIManager._instance.audioManager.PlayOne(8);
+                GameController._instance.flyBallF.SetActive(true);
+                GameController._instance.flyBall.Move(point_touqiushanglan.gameObject, GameController._instance.leftPoint_UP.gameObject);
+                //int a = UnityEngine.Random.Range(0, 100);
+                //bool isIn = false;
+                //if (a > 95)
+                //{
+                //    isIn = false;
+                //}
+                //else
+                //{
+                //    isIn = true;
+                //}
+                //GameController._instance.isShootInNPC = isIn;
+                //GameController._instance.leftLankuang.Play(isIn);
             }
             else if (info.IsName(GameController._instance.animName[8]))
             {
+                UIManager._instance.audioManager.PlayOne(9);
                 transform.Find("npcFather/Armature").GetComponent<Animator>().Play(GameController._instance.animName[5]);
 
                 GameController._instance.flyBallF.SetActive(true);
@@ -176,22 +204,24 @@ public class Npc : MonoBehaviour
 
 
             }
-            else if (info.IsName(GameController._instance.animName[9]))
-            {
-                transform.Find("npcFather/Armature").GetComponent<Animator>().Play(GameController._instance.animName[5]);
-                int a = UnityEngine.Random.Range(0, 100);
-                bool isIn = false;
-                if (a > 95)
-                {
-                    isIn = false;
-                }
-                else
-                {
-                    isIn = true;
-                }
-                GameController._instance.isShootInNPC = isIn;
-                GameController._instance.leftLankuang.Play(isIn);
-            }
+            //else if (info.IsName(GameController._instance.animName[9]))
+            //{
+            //    transform.Find("npcFather/Armature").GetComponent<Animator>().Play(GameController._instance.animName[0]);
+            //    GameController._instance.flyBallF.SetActive(true);
+            //    GameController._instance.flyBall.Move(point_touqiuguanlan.gameObject, GameController._instance.leftPoint_UP.gameObject);
+            //    //int a = UnityEngine.Random.Range(0, 100);
+            //    //bool isIn = false;
+            //    //if (a > 95)
+            //    //{
+            //    //    isIn = false;
+            //    //}
+            //    //else
+            //    //{
+            //    //    isIn = true;
+            //    //}
+            //    //GameController._instance.isShootInNPC = isIn;
+            //    //GameController._instance.leftLankuang.Play(isIn);
+            //}
         }
         if (moveX == 0)
         {//不移动

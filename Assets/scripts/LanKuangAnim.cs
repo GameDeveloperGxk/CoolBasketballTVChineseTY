@@ -34,7 +34,8 @@ public class LanKuangAnim : MonoBehaviour {
                 GameController._instance.downBall.SetActive(true);
                 root.SetActive(false );
                 if (gameObject.name == "Armature_right")
-                { 
+                {
+                    UIManager._instance.audioManager.PlayOne(4);
                     if (GameController._instance.isSanFenPlayer == true)
                     { 
                         GameController._instance.isSanFenPlayer = false;
@@ -47,6 +48,7 @@ public class LanKuangAnim : MonoBehaviour {
                 }
                 else if (gameObject.name == "Armature_left")
                 {
+                    UIManager._instance.audioManager.PlayOne(7);
                     if (GameController._instance.isSanFenNPC == true)
                     {
                         GameController._instance.isSanFenNPC = false;

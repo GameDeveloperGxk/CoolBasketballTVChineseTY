@@ -16,7 +16,9 @@ public class player : MonoBehaviour {
     public float speed = 50f; 
     private float moveX = 0;
     public Transform point_touqiu;
-     
+    public Transform point_touqiushanglan;
+    public Transform point_touqiuguanlan;
+
     public float MoveX { get { return moveX; } set { moveX = value; } }
 
     void FixedUpdate()
@@ -48,10 +50,31 @@ public class player : MonoBehaviour {
         {
             moveX = 0; 
         }
-        GetComponent<Rigidbody2D>().velocity = ( Vector2.left * moveX) * (speed + GameController._instance.playerValue[GameController._instance.NowUsePlayerID, 0] * 2);
+        GetComponent<Rigidbody2D>().velocity = ( Vector2.left * moveX) * (speed + GameController._instance.playerAllValue[GameController._instance.NowUsePlayerID, 2] /100 * 8);
 
         AnimatorStateInfo info = transform.Find("playerFather/Armature").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0);
-
+        if (info.normalizedTime > 0.5f)
+        {
+            if (info.IsName(GameController._instance.animName[9]))
+            {
+                UIManager._instance.audioManager.PlayOne(8);
+                transform.Find("playerFather/Armature").GetComponent<Animator>().Play(GameController._instance.animName[0]);
+                GameController._instance.flyBallF.SetActive(true);
+                GameController._instance.flyBall.Move(point_touqiuguanlan.gameObject, GameController._instance.leftPoint_UP.gameObject);
+                //int a = UnityEngine.Random.Range(0, 100);
+                //bool isIn = false;
+                //if (a > 65)
+                //{
+                //    isIn = false;
+                //}
+                //else
+                //{
+                //    isIn = true;
+                //}
+                //GameController._instance.isShootInPlayer = isIn;
+                //GameController._instance.rightLankuang.Play(isIn);
+            }
+        }
         if (info.normalizedTime > 1.0f)   
         {
             if (info.IsName(GameController._instance.animName[4]))
@@ -86,22 +109,26 @@ public class player : MonoBehaviour {
             }
             else if (info.IsName(GameController._instance.animName[7]))
             {
+                UIManager._instance.audioManager.PlayOne(8);
                 transform.Find("playerFather/Armature").GetComponent<Animator>().Play(GameController._instance.animName[5]);
-                int a = UnityEngine.Random.Range(0, 100);
-                bool isIn = false;
-                if (a > 65)
-                {
-                    isIn = false;
-                }
-                else
-                {
-                    isIn = true;
-                }
-                GameController._instance.isShootInPlayer = isIn;
-                GameController._instance.rightLankuang.Play(isIn);
+                GameController._instance.flyBallF.SetActive(true);
+                GameController._instance.flyBall.Move(point_touqiushanglan.gameObject, GameController._instance.leftPoint_UP.gameObject);
+                //int a = UnityEngine.Random.Range(0, 100);
+                //bool isIn = false;
+                //if (a > 65)
+                //{
+                //    isIn = false;
+                //}
+                //else
+                //{
+                //    isIn = true;
+                //}
+                //GameController._instance.isShootInPlayer = isIn;
+                //GameController._instance.rightLankuang.Play(isIn);
             }
             else if (info.IsName(GameController._instance.animName[8]))
             {
+                UIManager._instance.audioManager.PlayOne(9);
                 transform.Find("playerFather/Armature").GetComponent<Animator>().Play(GameController._instance.animName[5]);
 
                 GameController._instance.flyBallF.SetActive(true);
@@ -109,22 +136,7 @@ public class player : MonoBehaviour {
 
 
             }
-            else if (info.IsName(GameController._instance.animName[9]))
-            {
-                transform.Find("playerFather/Armature").GetComponent<Animator>().Play(GameController._instance.animName[5]);
-                int a = UnityEngine.Random.Range(0, 100);
-                bool isIn = false;
-                if (a > 65)
-                {
-                    isIn = false;
-                }
-                else
-                {
-                    isIn = true;
-                }
-                GameController._instance.isShootInPlayer = isIn;
-                GameController._instance.rightLankuang.Play(isIn);
-            }
+             
         }
         if (moveX == 0  )
         {//不移动
@@ -236,17 +248,32 @@ public class player : MonoBehaviour {
             }
             else
             {
-                transform.localScale = new Vector3(-1, 1, 1);
+                if (moveX == 1)
+                {
+                    transform.localScale = new Vector3(-1, 1, 1);
+                }
+                else if (moveX == -1)
+                {
+                    transform.localScale = new Vector3(1, 1, 1);
+                }
             }
         }
         else if (GameController._instance.whoHaveBall == GameController.WhoHaveBall.none)
         {
-           if( GameController._instance.tagetBall.x < transform.position.x)
+            //if( GameController._instance.tagetBall.x < transform.position.x)
+            // {
+            //     if (transform.Find("playerFather/Armature").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName(GameController._instance.animName[8]) == false)
+            //     transform.localScale = new Vector3(-1, 1, 1);
+            // }
+            //else
+            // {
+            //     transform.localScale = new Vector3(1, 1, 1);
+            // }
+            if (moveX == 1)
             {
-                if (transform.Find("playerFather/Armature").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName(GameController._instance.animName[8]) == false)
                 transform.localScale = new Vector3(-1, 1, 1);
             }
-           else
+            else if (moveX == -1)
             {
                 transform.localScale = new Vector3(1, 1, 1);
             }
@@ -260,6 +287,7 @@ public class player : MonoBehaviour {
  
    public void Tiao()
     {
+        if (GameController._instance.isstart == false) return;
         if (GameController._instance.whoHaveBall == GameController.WhoHaveBall.none)
         { 
             if (transform.Find("playerFather/Armature").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName(GameController._instance.animName[4]) == false

@@ -62,13 +62,27 @@ public class FlyBall : MonoBehaviour
             transform.parent.gameObject.SetActive(false);
             int a = UnityEngine.Random.Range(0, 100);
             bool isIn = false;
-            if (a > 55)
-            {
-                isIn = false;
+            if (GameController._instance.isSanFenPlayer == true)
+            {//三分
+                if (a < GameController._instance.playerAllValue[GameController._instance.NowUsePlayerID, 1] / 100)
+                {
+                    isIn = false;
+                }
+                else
+                {
+                    isIn = true;
+                }
             }
             else
-            {
-                isIn = true;
+            {//二分
+                if (a < GameController._instance.playerAllValue[GameController._instance.NowUsePlayerID, 0] / 100)
+                {
+                    isIn = false;
+                }
+                else
+                {
+                    isIn = true;
+                }
             }
             GameController._instance.isShootInPlayer = isIn;
             GameController._instance.rightLankuang.Play(isIn);
@@ -78,13 +92,27 @@ public class FlyBall : MonoBehaviour
             transform.parent.gameObject.SetActive(false);
             int a = UnityEngine.Random.Range(0, 100);
             bool isIn = false;
-            if (a > 55)
-            {
-                isIn = false;
+            if (GameController._instance.isSanFenNPC == true)
+            {//三分
+                if (a < GameController._instance.npcAllValue[GameController._instance.NowPlayLevel, 1] / 100)
+                {
+                    isIn = false;
+                }
+                else
+                {
+                    isIn = true;
+                }
             }
             else
-            {
-                isIn = true;
+            {//二分
+                if (a < GameController._instance.npcAllValue[GameController._instance.NowPlayLevel, 0] / 100)
+                {
+                    isIn = false;
+                }
+                else
+                {
+                    isIn = true;
+                }
             }
             GameController._instance.isShootInNPC = isIn;
             GameController._instance.leftLankuang.Play(isIn);

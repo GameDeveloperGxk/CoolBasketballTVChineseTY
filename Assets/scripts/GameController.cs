@@ -90,7 +90,7 @@ public class GameController : MonoBehaviour
         hand.SetActive(IsUseHand);
         isStop = false;
 
-        
+        InitValue();
     }
     private void OnEnable()
     {
@@ -123,7 +123,7 @@ public class GameController : MonoBehaviour
 
     public bool isstart = false;
     private float jishiTime = 0;
-    private float playTime = 20;
+    private float playTime = 60;
     private float showTime = 0;
     public int ShowTime
     {
@@ -142,7 +142,7 @@ public class GameController : MonoBehaviour
     bool boolDaojishi9 = false;
     bool boolDaojishi10 = false;
     void JiShi()
-    {
+    { 
         if (isstart == true)
         {
             if (jishiTime < playTime)
@@ -165,7 +165,7 @@ public class GameController : MonoBehaviour
                     UIManager._instance.uiStep = UIManager.UIStep.gameOver;
                     UIManager._instance.gameOver.ShowShengli();
                     UIManager._instance.playSprite.enabled = true;
-                    UIManager._instance.audioManager.PlayOne(8);
+                    UIManager._instance.audioManager.PlayOne(2);
                     
                     changeGameManager.Des(); 
                 }
@@ -178,7 +178,8 @@ public class GameController : MonoBehaviour
                     UIManager._instance.ShowOrHideGameOver(true);
                     UIManager._instance.uiStep = UIManager.UIStep.gameOver;
                     UIManager._instance.gameOver.ShowShiBai();
-                    
+                    UIManager._instance.audioManager.PlayOne(3);
+
                     changeGameManager.Des(); 
                 }
                 player_script.StopPlay(true);
@@ -365,9 +366,59 @@ public class GameController : MonoBehaviour
         scene.SetActive(isShow); 
     }
 
-  
+  public  int[,] playerAllValue;
+    void InitValue()
+    {
+        playerAllValue = new int[20, 6] { { 6200,  4400,   2040,   2070,   5600,   3400 }, { 5350, 4600,   1710,   1650,   4240,   2500 }, { 5400, 4800,   1590,   1530,   4400,   2800}, {6500,   5800,   1890,   1890,   4960,   3300 }, {6950,  7800,   2160,   2100,   5840,   3550},
+                                       {7300,   6600,   2160,   2190,   6000,   3600 }, {8000,  5000,   1980,   2040,   6000,   4000 }, {6800,  6400,   2100,   2100,   5600,   3500 }, { 7300, 6800,   2100,   2100,   5760,   3750 }, { 7400, 7000,   2190,   2160,   5760,   3550 },
+                                       { 7750,  7400,   2490,   2490,   6640,   4150 }, {7950,  7000,   2400,   2400,   6720,   4150 }, { 8200, 7800,   2550,   2550,   6880,   4350 }, { 8350, 7500,   2640,   2640,   7040,   4300 }, { 7950, 7200,   2670,   2670,   7120,   3900 },
+                                       { 8300,  7200,   2550,   2490,   6800,   4450 }, { 7950, 7200,   2400,   2430,   6400,   4150 }, { 7950, 7200,   2400,   2430,   6400,   4150 }, {7900,  7200,   2550,   2490,   6560,   4150}, {7900,   7200,   2550,   2490,   6560,   4150 }};
+
+        InitNpcValue();
+    }
 
 
+    public int[,] npcAllValue;
+     void InitNpcValue()
+    {
+        npcAllValue = new int[30, 6] { {7445,   7315,   2511,   1528,   7193,   3484}, 
+                                       {7661,   7054,   2436,   2356,   5929,   3052 }, 
+                                       { 8327,  6312,   1917,   1935,   3754,   2854}, 
+                                       {8805,   7838,   2264,   1516,   5695,   2521},
+                                       {6416,   4966,   2432,   2049,   4675,   3663},
+
+                                       {8275,   4539,   1808,   2454,   5344,   2717 },
+                                       {5214,   7594,   2544,   1628,   4203,   4303 }, 
+                                       {6915,   6501,   1751,   2313,   4529,   3757 }, 
+                                       {6520,   7706,   2102,   2074,   7280,   3564},
+                                       { 6489,  5931,   2481,   1917,   5116,   3253 },
+
+                                       { 6409,  5600,   2428,   2481,   7286,   3980 },
+                                       {6059,   6719,   2396,   2285,   5468,   3606 },
+                                       { 5780,  4069,   2560,   2207,   6393,   3199 },
+                                       { 5367,  4175,   2089,   2592,   5386,   4140 },
+                                       { 8494,  4787,   2226,   2284,   5138,   3688 },
+
+                                       { 8764,  7469,   2489,   2466,   5109,   2844},
+                                       { 6295,  7652,   2240,   1503,   6696,   3714},
+                                       {8186,   6358,   2624,   2105,   6282,   3593 },
+                                       {7533,   6700,   2120,   2214,   4471,   3356},
+                                       {5406,   6127,   2134,   2487,   6648,   2640 },
+
+                                       { 6319,  6009,   2015,   1716,   3991,   4251},
+                                       {5761,   6498,   2258,   2494,   4051,   3365},
+                                       { 8556,  5387,   1704,   2625,   4674,   3265 },
+                                       {7978,   7509,   1882,   1960,   6087,   3060 },
+                                       { 5467,  5009,   1949,   2477,   5883,   2752 },
+
+                                       { 7723,  6329,   2436,   1938,   3972,   2694 },
+                                       { 6261,  4137,   2025,   2506,   7416,   2835 },
+                                       { 7044,  5738,   2339,   2040,   4332,   4327 },
+                                       {6873,   7921,   2228,   2048,   6250,   3957},
+                                       {8798,   4016,   2451,   2476,   7428,   4447 }};
+    }
+     
+    
 
     public int[,] playerValue =  new int[20, 2] { {84,84 }, { 91, 94 }, { 63, 69 }, { 84, 70 }, { 80, 90 }, { 70, 70 }, { 70, 73 }, { 84, 89 }, { 98, 91 }, { 77, 77 },
                                                   {90,91 },{84,91 },{77,84 },{85,94 },{99,99 },{77,86 },{92,87 },{84,89 },{63,70 },{95,95 }};

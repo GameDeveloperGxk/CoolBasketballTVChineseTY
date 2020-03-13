@@ -84,7 +84,7 @@ public class GameMenu : MonoBehaviour {
             if (GameController._instance.isCanQiangDuan == true)
             {
                 int a = Random.Range(0, 100);
-                if (a < 40)
+                if (a < GameController._instance.playerAllValue[GameController._instance.NowUsePlayerID,5]/100)
                 {//抢成功
                     GameController._instance.player_script.QiangDao();
                 }

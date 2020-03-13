@@ -23,6 +23,12 @@ public class GameOver : MonoBehaviour {
     private void Update()
     {
         bg.transform.Rotate(new Vector3(0,0,360)*100000,Space.Self);
+
+        if (GameController._instance.isstart == true)
+        {
+            GameController._instance.isstart = false;
+        }
+
     }
     private void Start()
     {
