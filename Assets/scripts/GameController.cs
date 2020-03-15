@@ -19,9 +19,9 @@ public class GameController : MonoBehaviour
     public GameObject npc;
     public GameObject player;
     public GameObject ballF;
-     public ball ball_script;
+    public ball ball_script;
 
-    public GameObject scene; 
+    public GameObject scene;
     public AudioManager audioManager;
     public ChangeGameManager changeGameManager;
     public GameObject hand;
@@ -29,11 +29,11 @@ public class GameController : MonoBehaviour
 
     public player player_script;
 
-      
-    public bool SoundOpen { get; set; }
-     
 
-    public enum WhoHaveBall { none,player,npc}
+    public bool SoundOpen { get; set; }
+
+
+    public enum WhoHaveBall { none, player, npc }
     public WhoHaveBall whoHaveBall = WhoHaveBall.none;
 
     public FlyBall flyBall;
@@ -72,7 +72,7 @@ public class GameController : MonoBehaviour
         }
         else if (flyBallF.activeSelf == true)
         {//当前显示的是飞行球
-            flyBall.Move(flyBall.gameObject,targetObj);
+            flyBall.Move(flyBall.gameObject, targetObj);
         }
         else if (downBall.activeSelf == true)
         {
@@ -104,7 +104,7 @@ public class GameController : MonoBehaviour
 
     //当前球
     public GameObject Ball { get; set; }
-     
+
 
     //玩家是否投中
     public bool isShootInPlayer = false;
@@ -118,7 +118,7 @@ public class GameController : MonoBehaviour
     public bool isCanQiangDuan = false;
 
     public Vector3 vel { get; set; }
-     
+
     public bool isStop { get; set; }
 
     public bool isstart = false;
@@ -142,7 +142,7 @@ public class GameController : MonoBehaviour
     bool boolDaojishi9 = false;
     bool boolDaojishi10 = false;
     void JiShi()
-    { 
+    {
         if (isstart == true)
         {
             if (jishiTime < playTime)
@@ -154,7 +154,7 @@ public class GameController : MonoBehaviour
             {
                 isstart = false;
                 jishiTime = 0;
-                ResDaojishiBool(); 
+                ResDaojishiBool();
                 if (grade.redgrade >= text.bluegrade)
                 {//胜利
                     if (IsUseHand == true)
@@ -166,8 +166,8 @@ public class GameController : MonoBehaviour
                     UIManager._instance.gameOver.ShowShengli();
                     UIManager._instance.playSprite.enabled = true;
                     UIManager._instance.audioManager.PlayOne(2);
-                    
-                    changeGameManager.Des(); 
+
+                    changeGameManager.Des();
                 }
                 else
                 {
@@ -180,7 +180,7 @@ public class GameController : MonoBehaviour
                     UIManager._instance.gameOver.ShowShiBai();
                     UIManager._instance.audioManager.PlayOne(3);
 
-                    changeGameManager.Des(); 
+                    changeGameManager.Des();
                 }
                 player_script.StopPlay(true);
                 npc.GetComponent<Npc>().StopPlay(true);
@@ -301,10 +301,10 @@ public class GameController : MonoBehaviour
         JiShi();
         if (UIManager._instance.uiStep == UIManager.UIStep.game)
         {
-        //    if (ballFather.childCount > 1)
-         //   {
-                //  Destroy(ballFather.GetChild(0).gameObject);
-        //    }
+            //    if (ballFather.childCount > 1)
+            //   {
+            //  Destroy(ballFather.GetChild(0).gameObject);
+            //    }
         }
         //  print(isStop);
         if (Input.GetKeyDown(KeyCode.A))
@@ -335,12 +335,12 @@ public class GameController : MonoBehaviour
         else if (downBall.activeSelf == true)
         {
             tagetBall = downBall.transform.position;
-        } 
+        }
         else
         {
             if (whoHaveBall == WhoHaveBall.npc)
                 tagetBall = npc.transform.position;
-            else if(whoHaveBall == WhoHaveBall.player)
+            else if (whoHaveBall == WhoHaveBall.player)
                 tagetBall = player.transform.position;
         }
     }
@@ -355,18 +355,18 @@ public class GameController : MonoBehaviour
         rightLankuang.InIt();
         flyBallF.SetActive(false);
         downBall.SetActive(false);
-        if(ballF.activeSelf == false)
-        ballF.SetActive(true);
+        if (ballF.activeSelf == false)
+            ballF.SetActive(true);
         whoHaveBall = WhoHaveBall.none;
 
     }
 
     public void ShowOrHideGame(bool isShow)
     {
-        scene.SetActive(isShow); 
+        scene.SetActive(isShow);
     }
 
-  public  int[,] playerAllValue;
+    public  int[,] playerAllValue;
     void InitValue()
     {
         playerAllValue = new int[20, 6] { { 6200,  4400,   2040,   2070,   5600,   3400 }, { 5350, 4600,   1710,   1650,   4240,   2500 }, { 5400, 4800,   1590,   1530,   4400,   2800}, {6500,   5800,   1890,   1890,   4960,   3300 }, {6950,  7800,   2160,   2100,   5840,   3550},
@@ -379,46 +379,42 @@ public class GameController : MonoBehaviour
 
 
     public int[,] npcAllValue;
-     void InitNpcValue()
+    void InitNpcValue()
     {
-        npcAllValue = new int[30, 6] { {7445,   7315,   2511,   1528,   7193,   3484}, 
-                                       {7661,   7054,   2436,   2356,   5929,   3052 }, 
-                                       { 8327,  6312,   1917,   1935,   3754,   2854}, 
-                                       {8805,   7838,   2264,   1516,   5695,   2521},
-                                       {6416,   4966,   2432,   2049,   4675,   3663},
-
-                                       {8275,   4539,   1808,   2454,   5344,   2717 },
-                                       {5214,   7594,   2544,   1628,   4203,   4303 }, 
-                                       {6915,   6501,   1751,   2313,   4529,   3757 }, 
-                                       {6520,   7706,   2102,   2074,   7280,   3564},
-                                       { 6489,  5931,   2481,   1917,   5116,   3253 },
-
-                                       { 6409,  5600,   2428,   2481,   7286,   3980 },
-                                       {6059,   6719,   2396,   2285,   5468,   3606 },
-                                       { 5780,  4069,   2560,   2207,   6393,   3199 },
-                                       { 5367,  4175,   2089,   2592,   5386,   4140 },
-                                       { 8494,  4787,   2226,   2284,   5138,   3688 },
-
-                                       { 8764,  7469,   2489,   2466,   5109,   2844},
-                                       { 6295,  7652,   2240,   1503,   6696,   3714},
-                                       {8186,   6358,   2624,   2105,   6282,   3593 },
-                                       {7533,   6700,   2120,   2214,   4471,   3356},
-                                       {5406,   6127,   2134,   2487,   6648,   2640 },
-
-                                       { 6319,  6009,   2015,   1716,   3991,   4251},
-                                       {5761,   6498,   2258,   2494,   4051,   3365},
-                                       { 8556,  5387,   1704,   2625,   4674,   3265 },
-                                       {7978,   7509,   1882,   1960,   6087,   3060 },
-                                       { 5467,  5009,   1949,   2477,   5883,   2752 },
-
-                                       { 7723,  6329,   2436,   1938,   3972,   2694 },
-                                       { 6261,  4137,   2025,   2506,   7416,   2835 },
-                                       { 7044,  5738,   2339,   2040,   4332,   4327 },
-                                       {6873,   7921,   2228,   2048,   6250,   3957},
-                                       {8798,   4016,   2451,   2476,   7428,   4447 }};
+        npcAllValue = new int[30, 6] { {5214,4016,1704,1503,3754,2521},
+                                        {5367,4069,1751,1516,3972,2640},
+                                        {5406,4137,1808,1528,3991,2694},
+                                        {5467,4175,1882,1628,4051,2717},
+                                        {5761,4539,1917,1716,4203,2752},
+                                        {5780,4787,1949,1917,4332,2835},
+                                        {6059,4966,2015,1935,4471,2844},
+                                        {6261,5009,2025,1938,4529,2854},
+                                        {6295,5387,2089,1960,4674,3052},
+                                        {6319,5600,2102,2040,4675,3060},
+                                        {6409,5738,2120,2048,5109,3199},
+                                        {6416,5931,2134,2049,5116,3253},
+                                        {6489,6009,2226,2074,5138,3265},
+                                        {6520,6127,2228,2105,5344,3356},
+                                        {6873,6312,2240,2207,5386,3365},
+                                        {6915,6329,2258,2214,5468,3484},
+                                        {7044,6358,2264,2284,5695,3564},
+                                        {7445,6498,2339,2285,5883,3593},
+                                        {7533,6501,2396,2313,5929,3606},
+                                        {7661,6700,2428,2356,6087,3663},
+                                        {7723,6719,2432,2454,6250,3688},
+                                        {7978,7054,2436,2466,6282,3714},
+                                        {8186,7315,2436,2476,6393,3757},
+                                        {8275,7469,2451,2477,6648,3957},
+                                        {8327,7509,2481,2481,6696,3980},
+                                        {8494,7594,2489,2487,7193,4140},
+                                        {8556,7652,2511,2494,7280,4251},
+                                        {8764,7706,2544,2506,7286,4303},
+                                        {8798,7838,2560,2592,7416,4327},
+                                        {8805,7921,2624,2625,7428,4447},
+};
     }
-     
-    
+
+
 
     public int[,] playerValue =  new int[20, 2] { {84,84 }, { 91, 94 }, { 63, 69 }, { 84, 70 }, { 80, 90 }, { 70, 70 }, { 70, 73 }, { 84, 89 }, { 98, 91 }, { 77, 77 },
                                                   {90,91 },{84,91 },{77,84 },{85,94 },{99,99 },{77,86 },{92,87 },{84,89 },{63,70 },{95,95 }};
@@ -430,7 +426,7 @@ public class GameController : MonoBehaviour
     private int[] npcUse = new int[30] {5,18,11,4,19,19,19,1,5,17,1,5,8,11,5,4,12,10,18,15,7,7,19,16,9,12,9,2,14,19};
     public int[] GetNpcUse { get { return npcUse; } }
 
-  
+
     private  string[] animName_ = new string[] { "daiji_meiqiu","daiji_daiqiu","fangshou","fangshou_yidong","tiaoqi", "qiang_meiqiu", "qiang_youqiu", "touqiu_shanglan", "touqiu_sanfenqiu","touqiu_guanlan","zou","zou_qiu"};
     /// <summary>
     /// 0.待机没球
