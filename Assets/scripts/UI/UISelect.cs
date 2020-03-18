@@ -273,6 +273,7 @@ public class UISelect : MonoBehaviour
                     break;
                 case UIManager.UIStep.selectPlayer:
                     ClickSelectPlayerLeft();
+                    selectPlayerMenu.ChangeScoll(mtra);
                     break;
                 case UIManager.UIStep.selectPlayerBuy:
                     ClickSelectPlayerBuyLeft();
@@ -304,6 +305,7 @@ public class UISelect : MonoBehaviour
                     break;
                 case UIManager.UIStep.selectPlayer:
                     ClickSelectPlayerRight();
+                    selectPlayerMenu.ChangeScoll(mtra);
                     break;
                 case UIManager.UIStep.selectPlayerBuy:
                     ClickSelectPlayerBuyLeft();
@@ -335,6 +337,7 @@ public class UISelect : MonoBehaviour
                     break;
                 case UIManager.UIStep.selectPlayer:
                     ClickSelectPlayerUp();
+                    selectPlayerMenu.ChangeScoll(mtra);
                     break;
                 case UIManager.UIStep.selectPlayerBuy:
                     ClickSelectPlayerBuyLeft();
@@ -366,6 +369,7 @@ public class UISelect : MonoBehaviour
                     break;
                 case UIManager.UIStep.selectPlayer:
                     ClickSelectPlayerDown();
+                    selectPlayerMenu.ChangeScoll(mtra);
                     break;
                 case UIManager.UIStep.selectPlayerBuy:
                     ClickSelectPlayerBuyLeft();

@@ -79,6 +79,8 @@ public class SelectPlayerMenu : MonoBehaviour {
     public Sprite[] allGuoqi;
     bool isInit = false;
 
+    public Transform scoll;
+
     private void Awake()
     { 
         InitValue();
@@ -109,7 +111,7 @@ public class SelectPlayerMenu : MonoBehaviour {
         tishi.transform.localScale = new Vector3(0,0,0);
 
         isInit = false;
-        
+        scoll.localPosition = Vector3.zero;
     }
 
     void Start()
@@ -440,7 +442,28 @@ public class SelectPlayerMenu : MonoBehaviour {
 
 
 
-
+    public void ChangeScoll(Transform handTra)
+    {
+        for (int i =0; i< btnPlayerAll.Length;i++)
+        {
+            if (handTra.position == btnPlayerAll[i].transform.position)
+            {
+                if (i >= 0 && i <= 9)
+                {
+                    scoll.localPosition = Vector3.zero;
+                } 
+                else if (i >= 10 && i <= 14)
+                {
+                    scoll.localPosition = new Vector3(0,70,0);
+                }
+                else if (i >= 15 && i <= 19)
+                {
+                    scoll.localPosition = new Vector3(0, 200, 0);
+                }
+                handTra.position = btnPlayerAll[i].transform.position;
+            }
+        }
+    }
 
 
 

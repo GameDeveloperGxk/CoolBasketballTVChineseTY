@@ -10,7 +10,7 @@ public class GameController : MonoBehaviour
     public bool IsUseVideo { get { return isUseVideo; } }
 
     //是否是TV
-    private bool isUseHand = false;
+    private bool isUseHand = true;
     public bool IsUseHand { get { return isUseHand; } }
 
 
