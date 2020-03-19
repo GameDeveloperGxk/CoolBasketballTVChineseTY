@@ -18,6 +18,7 @@ public class player : MonoBehaviour {
     public Transform point_touqiu;
     public Transform point_touqiushanglan;
     public Transform point_touqiuguanlan;
+    bool isShooting = false;//是否投球中
 
     public float MoveX { get { return moveX; } set { moveX = value; } }
 
@@ -125,6 +126,7 @@ public class player : MonoBehaviour {
                 //}
                 //GameController._instance.isShootInPlayer = isIn;
                 //GameController._instance.rightLankuang.Play(isIn);
+                isShooting = false;
             }
             else if (info.IsName(GameController._instance.animName[8]))
             {
@@ -134,9 +136,14 @@ public class player : MonoBehaviour {
                 GameController._instance.flyBallF.SetActive(true);
                 GameController._instance.flyBall.Move(point_touqiu.gameObject, GameController._instance.rightPoint_UP.gameObject);
 
+                isShooting = false;
 
             }
-             
+            else if (info.IsName(GameController._instance.animName[9]))
+            {  
+                isShooting = false; 
+            }
+
         }
         if (moveX == 0  )
         {//不移动
@@ -271,7 +278,8 @@ public class player : MonoBehaviour {
             // }
             if (moveX == 1)
             {
-                transform.localScale = new Vector3(-1, 1, 1);
+                if(isShooting == false)
+                  transform.localScale = new Vector3(-1, 1, 1);
             }
             else if (moveX == -1)
             {
@@ -326,6 +334,8 @@ public class player : MonoBehaviour {
                     transform.Find("playerFather/Armature").GetComponent<Animator>().Play(Random.Range(0,100) > 50 ? GameController._instance.animName[7] : GameController._instance.animName[9]);
                 }
                 GameController._instance.whoHaveBall = GameController.WhoHaveBall.none;
+                transform.localScale = new Vector3(1, 1, 1);
+                isShooting = true;
             }
         }
         else if (GameController._instance.whoHaveBall == GameController.WhoHaveBall.npc)

@@ -55,7 +55,14 @@ public class GameMenu : MonoBehaviour {
                 GameController._instance.hand.transform.Find("hand").GetComponent<Image>().enabled = true;
         }
 
-
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            TiaoClick();
+        }
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            QiangClick();
+        }
     }
     void HomeClick()
     {
@@ -79,7 +86,8 @@ public class GameMenu : MonoBehaviour {
 
     void QiangClick()
     {
-        if(GameController._instance.whoHaveBall == GameController.WhoHaveBall.npc)
+        if (GameController._instance.isstart == false) return;
+        if (GameController._instance.whoHaveBall == GameController.WhoHaveBall.npc)
         {
             if (GameController._instance.isCanQiangDuan == true)
             {
